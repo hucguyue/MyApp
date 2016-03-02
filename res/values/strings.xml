@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApp</string>
+    <string name="welcome_tv_text">Welcome</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="login_btn">登 \t\t\t\t\t陆</string>
+    <string name="login_forgetpwd">忘记密码?.....</string>
+    <string name="login_newuser">新用户</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="reg_tv_username">用  户  名\t：</string>
+    <string name="reg_tv_password">密\t\t 码：</string>
+    <string name="reg_tv_pwdagain">确认密码：</string>
+    <string name="reg_btn_register">注\t\t册</string>
+    <string name="reg_btn_reset">重\t\t置</string>
+    <string name="title_activity_user_infor">UserInforActivity</string>
+    <string name="userinfor_tv_title">用户信息</string>
+    <string name="username_init">用户名</string>
+    <string name="pwd_init">密码</string>
+    <string name="pwdagain_init">确认密码</string>
+    <string name="reg_edtpwd_init">7位字母数字组合</string>
+    <string name="reg_edtusername_init">[a-z]开头,7位字母数字_组合</string>
+
+</resources>
