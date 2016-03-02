@@ -19,7 +19,7 @@
         </activity>
         <activity
             android:name=".WelcomeActivity"
-            android:label="@string/title_activity_welcome" >
+            android:label="@string/app_name" ><!-- 图标下面的应用名称，意图在哪个活动中，设置在哪个活动中 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

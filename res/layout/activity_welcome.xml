@@ -9,20 +9,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/tv_shape"
         android:text="@string/welcome_tv_text"
         android:textColor="@color/welcom_txt_welcom"
-        android:textSize="70dp" />
+        android:textSize="70sp" />
 
     <TextView
         android:id="@+id/wel_tv_timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFF00"
         android:text="5"
-        android:textColor="#FF0000"
-        android:textSize="190dp" />
+        android:textSize="150sp" />
 
 </RelativeLayout>
