@@ -1,5 +1,6 @@
 package com.example.myapp;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,9 +25,9 @@ public class WelcomeActivity extends Activity {
 				Intent intent = new Intent();
 				intent.setClass(WelcomeActivity.this, MainActivity.class);
 				startActivity(intent);
+				overridePendingTransition(R.anim.tran_in, R.anim.tran_out);
 				finish();// 结束欢迎页面
 				break;
-
 			default:
 				break;
 			}

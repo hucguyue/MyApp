@@ -3,8 +3,10 @@ package com.example.myapp;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -55,8 +57,15 @@ public class UserInforActivity extends Activity {
 	 * lv_data:显示用户信息的列表控件</br>
 	 * </p>
 	 * <p>
-	 * </br> </br> </br>
-	 * </p>
+	 * public SimpleAdapter(Context context, List<? extends Map<String, ?>>
+	 * data, int resource, String[] from, int[] to)
+	 * 
+	 * @param context
+	 *            :Context类型，当前活动的上下文</br> data:List<? extends
+	 *            Map<String,?>>类型，一个内容为任意继承Map类类型的List</br>
+	 *            resource：int类型，数据源，或者说存放数据的方式或容器</br>
+	 *            from:String[]类型，从哪里映射数据。</br> to:int[]类型，将数据映射到哪里。</br>
+	 *            </p>
 	 */
 	private void initView() {
 		// TODO Auto-generated method stub
